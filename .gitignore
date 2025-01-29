@@ -1,0 +1,39 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Build directories
+target/
+out/
+
+# Dependency directories
+.mvn/
+
+# Maven Wrapper binary
+mvnw
+mvnw.cmd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+
+# Ignore Eclipse project files (if applicable)
+.project
+.classpath
+.settings/
+
+# Ignore generated files
+*.jar
+*.war
+*.ear

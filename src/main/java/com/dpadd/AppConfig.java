@@ -5,12 +5,12 @@ import org.springframework.context.annotation.Bean;
 public class AppConfig {
 
     @Bean
-    public CardNumberProvider exampleDependency() {
+    public CardNumberProvider cardNumberProvider() {
         return new CardNumberProvider("5555 5555 5555 4444");
     }
 
     @Bean
-    public MaskingService exampleService(CardNumberProvider cardNumberProvider) {
+    public MaskingService maskingService(CardNumberProvider cardNumberProvider) {
         return new MaskingService(cardNumberProvider);
     }
 }
